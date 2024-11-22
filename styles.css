@@ -1,0 +1,129 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+  background-size: cover;
+  color: #5e2fdf;
+  scroll-behavior: smooth;
+}
+.bg-guy{
+  background: url('space-background.jpg') no-repeat center center fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+  background-size: cover;
+  color: #5e2fdf;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5e2fdf;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5e2fdf;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/* Navigation Hover Effects */
+header nav a:hover {
+  color: #5e2fdf;
+  text-shadow: 0 0 10px #5e2fdf, 0 0 20px #5e2fdf;
+}
+
+/* Landing Section */
+#landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 90vh;
+}
+
+#landing .content h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+#landing .content p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-image {
+  max-width: 40%;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Sections */
+section {
+  padding: 50px;
+}
+
+#articles, #gallery, #contact {
+  background-color: #121212;
+}
+
+#articles h2, #gallery h2, #contact h2 {
+  color: #5e2fdf;
+}
+
+.article-grid {
+  display: flex;
+  gap: 20px;
+}
+
+article {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Article Hover Effects */
+article:hover {
+  background: #5e2fdf;
+  color: #121212;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #121212;
+  color: #5e2fdf;
+}
+a{
+  text-decoration:none;
+  flex: 1;
+  color: #5e2fdf;
+}
+.thatha{
+  width: 300px;
+  height: 450px;
+}
+.gall{
+  font-size: 21px;
+}
+
